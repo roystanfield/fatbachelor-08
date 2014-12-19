@@ -14,6 +14,11 @@
 		8C4000131A44D3600095546D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4000121A44D3600095546D /* Images.xcassets */; };
 		8C4000161A44D3600095546D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C4000141A44D3600095546D /* LaunchScreen.xib */; };
 		8C4000221A44D3600095546D /* FatBachelor_08Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4000211A44D3600095546D /* FatBachelor_08Tests.m */; };
+		8C4000301A44D5600095546D /* Day.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40002F1A44D5600095546D /* Day.m */; };
+		8C4000331A44D56A0095546D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4000321A44D56A0095546D /* User.m */; };
+		8C4000361A44D5820095546D /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4000351A44D5820095546D /* CustomTableView.m */; };
+		8C4000391A44D5A90095546D /* CalorieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4000381A44D5A90095546D /* CalorieTableViewController.m */; };
+		8C40003C1A44D5B80095546D /* BudgetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40003B1A44D5B80095546D /* BudgetTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,24 @@
 		8C4000071A44D3600095546D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C4000091A44D3600095546D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C40000A1A44D3600095546D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8C40000C1A44D3600095546D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C40000D1A44D3600095546D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C40000C1A44D3600095546D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		8C40000D1A44D3600095546D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		8C4000101A44D3600095546D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C4000121A44D3600095546D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8C4000151A44D3600095546D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8C40001B1A44D3600095546D /* FatBachelor-08Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FatBachelor-08Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4000201A44D3600095546D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4000211A44D3600095546D /* FatBachelor_08Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FatBachelor_08Tests.m; sourceTree = "<group>"; };
+		8C40002E1A44D5600095546D /* Day.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day.h; sourceTree = "<group>"; };
+		8C40002F1A44D5600095546D /* Day.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Day.m; sourceTree = "<group>"; };
+		8C4000311A44D56A0095546D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		8C4000321A44D56A0095546D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		8C4000341A44D5820095546D /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		8C4000351A44D5820095546D /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
+		8C4000371A44D5A90095546D /* CalorieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalorieTableViewController.h; sourceTree = "<group>"; };
+		8C4000381A44D5A90095546D /* CalorieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalorieTableViewController.m; sourceTree = "<group>"; };
+		8C40003A1A44D5B80095546D /* BudgetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetTableViewController.h; sourceTree = "<group>"; };
+		8C40003B1A44D5B80095546D /* BudgetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +89,9 @@
 			children = (
 				8C4000091A44D3600095546D /* AppDelegate.h */,
 				8C40000A1A44D3600095546D /* AppDelegate.m */,
-				8C40000C1A44D3600095546D /* ViewController.h */,
-				8C40000D1A44D3600095546D /* ViewController.m */,
+				8C40002C1A44D4FF0095546D /* Models */,
+				8C40002D1A44D4FF0095546D /* Views */,
+				8C40002B1A44D4FF0095546D /* Controllers */,
 				8C40000F1A44D3600095546D /* Main.storyboard */,
 				8C4000121A44D3600095546D /* Images.xcassets */,
 				8C4000141A44D3600095546D /* LaunchScreen.xib */,
@@ -108,6 +124,39 @@
 				8C4000201A44D3600095546D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C40002B1A44D4FF0095546D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C40000C1A44D3600095546D /* ViewController.h */,
+				8C40000D1A44D3600095546D /* ViewController.m */,
+				8C4000371A44D5A90095546D /* CalorieTableViewController.h */,
+				8C4000381A44D5A90095546D /* CalorieTableViewController.m */,
+				8C40003A1A44D5B80095546D /* BudgetTableViewController.h */,
+				8C40003B1A44D5B80095546D /* BudgetTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8C40002C1A44D4FF0095546D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C40002E1A44D5600095546D /* Day.h */,
+				8C40002F1A44D5600095546D /* Day.m */,
+				8C4000311A44D56A0095546D /* User.h */,
+				8C4000321A44D56A0095546D /* User.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C40002D1A44D4FF0095546D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C4000341A44D5820095546D /* CustomTableView.h */,
+				8C4000351A44D5820095546D /* CustomTableView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		8C40FFF91A44D3600095546D = {
@@ -227,8 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C40003C1A44D5B80095546D /* BudgetTableViewController.m in Sources */,
+				8C4000331A44D56A0095546D /* User.m in Sources */,
 				8C40000E1A44D3600095546D /* ViewController.m in Sources */,
+				8C4000391A44D5A90095546D /* CalorieTableViewController.m in Sources */,
+				8C4000361A44D5820095546D /* CustomTableView.m in Sources */,
 				8C40000B1A44D3600095546D /* AppDelegate.m in Sources */,
+				8C4000301A44D5600095546D /* Day.m in Sources */,
 				8C4000081A44D3600095546D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
