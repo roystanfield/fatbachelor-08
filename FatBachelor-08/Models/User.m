@@ -10,4 +10,14 @@
 
 @implementation User
 
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.days = [NSMutableArray array];
+    }
+    
+    return self;
+}
+
 @end

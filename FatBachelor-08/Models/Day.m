@@ -10,4 +10,10 @@
 
 @implementation Day
 
+- (NSString *)description
+{
+    NSString *description = [NSString stringWithFormat:@"Calories %ld / %ld", (long)self.calories, (long)self.maxCalories];
+    return description;
+}
+
 @end

@@ -1,5 +1,5 @@
 //
-//  CustomTableView.h
+//  CustomTableViewCell.h
 //  FatBachelor-08
 //
 //  Created by Roy Stanfield on 12/19/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomTableView : UIView
+@interface CustomTableViewCell : UITableViewCell
 
 @end

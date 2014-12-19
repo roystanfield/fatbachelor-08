@@ -16,9 +16,9 @@
 		8C4000221A44D3600095546D /* FatBachelor_08Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4000211A44D3600095546D /* FatBachelor_08Tests.m */; };
 		8C4000301A44D5600095546D /* Day.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40002F1A44D5600095546D /* Day.m */; };
 		8C4000331A44D56A0095546D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4000321A44D56A0095546D /* User.m */; };
-		8C4000361A44D5820095546D /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4000351A44D5820095546D /* CustomTableView.m */; };
 		8C4000391A44D5A90095546D /* CalorieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4000381A44D5A90095546D /* CalorieTableViewController.m */; };
 		8C40003C1A44D5B80095546D /* BudgetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40003B1A44D5B80095546D /* BudgetTableViewController.m */; };
+		8C4000401A44D6C70095546D /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40003F1A44D6C70095546D /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,12 +49,12 @@
 		8C40002F1A44D5600095546D /* Day.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Day.m; sourceTree = "<group>"; };
 		8C4000311A44D56A0095546D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		8C4000321A44D56A0095546D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		8C4000341A44D5820095546D /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
-		8C4000351A44D5820095546D /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
 		8C4000371A44D5A90095546D /* CalorieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalorieTableViewController.h; sourceTree = "<group>"; };
 		8C4000381A44D5A90095546D /* CalorieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalorieTableViewController.m; sourceTree = "<group>"; };
 		8C40003A1A44D5B80095546D /* BudgetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetTableViewController.h; sourceTree = "<group>"; };
 		8C40003B1A44D5B80095546D /* BudgetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetTableViewController.m; sourceTree = "<group>"; };
+		8C40003E1A44D6C70095546D /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		8C40003F1A44D6C70095546D /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 				8C4000091A44D3600095546D /* AppDelegate.h */,
 				8C40000A1A44D3600095546D /* AppDelegate.m */,
 				8C40002C1A44D4FF0095546D /* Models */,
-				8C40002D1A44D4FF0095546D /* Views */,
+				8C40003D1A44D6B60095546D /* Views */,
 				8C40002B1A44D4FF0095546D /* Controllers */,
 				8C40000F1A44D3600095546D /* Main.storyboard */,
 				8C4000121A44D3600095546D /* Images.xcassets */,
@@ -150,11 +150,11 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		8C40002D1A44D4FF0095546D /* Views */ = {
+		8C40003D1A44D6B60095546D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8C4000341A44D5820095546D /* CustomTableView.h */,
-				8C4000351A44D5820095546D /* CustomTableView.m */,
+				8C40003E1A44D6C70095546D /* CustomTableViewCell.h */,
+				8C40003F1A44D6C70095546D /* CustomTableViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -280,9 +280,9 @@
 				8C4000331A44D56A0095546D /* User.m in Sources */,
 				8C40000E1A44D3600095546D /* ViewController.m in Sources */,
 				8C4000391A44D5A90095546D /* CalorieTableViewController.m in Sources */,
-				8C4000361A44D5820095546D /* CustomTableView.m in Sources */,
 				8C40000B1A44D3600095546D /* AppDelegate.m in Sources */,
 				8C4000301A44D5600095546D /* Day.m in Sources */,
+				8C4000401A44D6C70095546D /* CustomTableViewCell.m in Sources */,
 				8C4000081A44D3600095546D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
